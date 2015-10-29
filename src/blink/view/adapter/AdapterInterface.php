@@ -16,7 +16,7 @@ interface AdapterInterface
     /**
      * @return bool
      */
-    public function debug();
+    public function isDebug();
 
     /**
      * @return string

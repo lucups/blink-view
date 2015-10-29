@@ -36,6 +36,7 @@ abstract class ViewAdapter implements AdapterInterface
 
     public function getCacheDir()
     {
+        return $this->_cacheDir;
     }
 
     public function setCacheDir($cacheDir)
@@ -44,7 +45,5 @@ abstract class ViewAdapter implements AdapterInterface
         return $this;
     }
 
-    public function render()
-    {
-    }
+    abstract public function render();
 }
